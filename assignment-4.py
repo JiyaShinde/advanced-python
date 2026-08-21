@@ -12,3 +12,6 @@ def fibonacci_iterative(n):
         b = c
 
     return b
+    
+n = int(input("Enter n: "))
+print("Fibonacci number:", fibonacci_iterative(n))
